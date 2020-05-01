@@ -1,0 +1,179 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 999;
+  background: black;
+  padding: 20px 100px 20px 100px;
+  margin-bottom: -3px;
+  width: 45%;
+}
+a {
+  color: white;
+}
+
+main {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  }
+
+img {
+  object-fit: cover;
+  width: 400px;
+  height: 680px;
+  position: absolute;
+  z-index:-1;
+  margin-left: -3px;
+  
+}
+.szoveg{
+position:absolute;
+top:440px;
+left:102px;
+}
+
+table {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 250px;
+}
+
+#blockq {
+  position: absolute;
+  font-size: 150px;
+  margin-top: -50px;
+  margin-left: -45px;
+  margin-bottom: 0px;
+  
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  margin-bottom: 0px;
+  
+  }
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 85px;
+  line-height: 1em;
+  margin-top: 2px;
+}
+
+.firstblock {
+  display: flex;
+  justify-content: flex-start
+  align-items: flex-end
+  margin-right: auto
+}
+
+#intro {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+  display: block
+  width: 350px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+    
+}
+
+ul {
+  list-style-type: square;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 26px;
+  padding-bottom: 0px;
+    
+}  
+
+blockquote {
+  font-family: 'Abril Fatface', cursive; 
+  font-size: 56px;
+  background: #444;
+  color: white;
+  margin-left: 0px;
+  width: 380px;
+  height: auto;
+  padding: 1px 0px 60px 40px;
+  margin-top: 10px;
+}
+
+.box1 {
+  margin-top: 500px;
+  margin-bottom: 210px;
+}
+.box2 {
+  margin-top: 0px;
+  margin-bottom: 350p
+}
+.box3 {
+  margin-top: 350px;
+}
+
+blockquote:: before {
+  content: &#10077;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin-left: 0px;
+}
+
+#blockq1 {
+  margin-top: 100px;
+  padding-top: 10px;
+  
+}
+.noteable{
+  margin-top: 320px;
+  margin-bottom: 50px;
+}
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.explain {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 400px
+  margin-right: 400px;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  margin-top: -18px;
+  margin-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  Flex-grow: 2;
+  width: 400px
+  flex-grow: 50%; 
+  flex-direction: column;
+  justify-content: 
+  }
+
+.right {
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 70px;
+  margin-right: 550px; auto;
+  margin-left: 2px;
+}
